@@ -61,13 +61,13 @@ get_header(); ?>
                 happy to help.</p>
         </div>
         <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" class="w-[90%] sm:w-[70%] md:w-2/5"
-            src="/images/bg/contact-ring.png" alt="Marketing">
+            src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/bg/contact-ring.png" alt="Marketing">
     </header>
 
     <!-- Contact Form -->
     <div class="container">
         <div data-aos="fade-up" data-aos-duration="1000"
-            class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[url('/images/glow/contact-page-contact-form.png')] bg-cover bg-no-repeat">
+            class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/contact-page-contact-form.png')] bg-cover bg-no-repeat">
             <div class="mb-10 space-y-4 text-center md:text-left">
                 <h2 class="text-2xl md:text-5xl">Speak to Us</h2>
                 <p class="md:text-xl">Fill out your details below if you want to learn more about our product. We’ll
