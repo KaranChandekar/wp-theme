@@ -33,7 +33,20 @@
           bg-[#0e1414] lg:bg-transparent shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static
           lg:shadow-none lg:translate-x-0" id="nav-links">
           <div class="flex flex-col h-full lg:space-x-10 lg:items-center lg:flex-row">
-            <ul class="pt-24 space-y-8 lg:pt-0 lg:space-y-0 lg:flex lg:space-x-10">
+            
+          <?php   wp_nav_menu( array(
+                  'theme_location'    => 'primary',
+                  'depth'             => 2,
+                    'container'         => 'ul',
+                    'container_class'   => '',
+                    'container_id'      => '',
+                      'menu_class'        => 'pt-24 space-y-8 lg:pt-0 lg:space-y-0 lg:flex lg:space-x-10',
+                      'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'  => new WP_Bootstrap_Navwalker())
+                        );
+                      ?>
+
+            <!-- <ul class="pt-24 space-y-8 lg:pt-0 lg:space-y-0 lg:flex lg:space-x-10">
               <li class="text-indigo-500 nav-link">
                 <a href="/">Home</a>
               </li>
@@ -46,7 +59,7 @@
               <li class="nav-link">
                 <a href="/contact.php">Contact</a>
               </li>
-            </ul>
+            </ul> -->
             <button id="show-modal" data-modal-target="popup-modal" data-modal-toggle="popup-modal" class="nav-button"
               type="button">
               FREE AUDIT
