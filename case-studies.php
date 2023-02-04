@@ -68,7 +68,7 @@ get_header(); ?>
     </header>
 
     <div data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000" class="container">
-        <img src="/images/case-studies/growth.svg" alt="">
+        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/case-studies/growth.svg" alt="">
     </div>
 
     <!-- Challenge Section -->
@@ -85,7 +85,7 @@ get_header(); ?>
                 SEO like Byjus, Vedantu, Aakash, and many more.</p>
         </div>
         <img data-aos="fade-left" data-aos-delay="1000" data-aos-duration="1000" class="rounded-xl lg:w-1/2"
-            src="/images/case-studies/challenge.gif" alt="Marketing">
+            src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/case-studies/challenge.gif" alt="Marketing">
     </div>
 
     <div class="container overflow-x-hidden text-center">
@@ -97,7 +97,7 @@ get_header(); ?>
             enthusiasts.</h2>
         <div data-aos="fade-up" data-aos-duration="1000"
             class="p-4 bg-no-repeat bg-cover rounded-lg md:p-14 bg-card-img">
-            <img class="w-full rounded-xl md:w-[80%] lg:w-[60%] mx-auto" src="/images/case-studies/gsconsole.gif"
+            <img class="w-full rounded-xl md:w-[80%] lg:w-[60%] mx-auto" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/case-studies/gsconsole.gif"
                 alt="Marketing">
         </div>
     </div>
@@ -136,7 +136,7 @@ get_header(); ?>
                     <p class="mb-8 md:text-lg lg:text-xl">Content for the full marketing funnel was planned in this
                         stage.</p>
                     <img class="object-contain mt-12 mb-8 rounded-lg w-full md:w-[80%] lg:w-[60%]"
-                        src="/images/case-studies/eat.png" alt="step">
+                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/case-studies/eat.png" alt="step">
                 </div>
             </div>
             <div class="relative flex pb-12">
@@ -228,7 +228,7 @@ get_header(); ?>
                         helped us understand whether we have covered the topic extensively enough to rank the article.
                     </p>
                     <img class="object-contain mt-12 mb-8 rounded-lg w-full md:w-[80%] lg:w-[60%]"
-                        src="/images/case-studies/step4.png" alt="step">
+                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/case-studies/step4.png" alt="step">
                     <p class="mb-8 md:text-lg lg:text-xl">After this, one more crucial step is internally linking all
                         the articles as when they are getting published and updated.
                     </p>
@@ -250,7 +250,7 @@ get_header(); ?>
                         which submits the URL to Google's indexing API, and it gets
                         picked up by Google in minutes.</p>
                     <img class="object-contain w-full mt-12 mb-8 rounded-lg md:w-[80%] lg:w-[60%]"
-                        src="/images/case-studies/step5.jpeg" alt="step">
+                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/case-studies/step5.jpeg" alt="step">
                 </div>
             </div>
         </div>
@@ -270,14 +270,14 @@ get_header(); ?>
             <i class="text-2xl fa-brands fa-linkedin" data-aos="fade-up" data-aos-delay="600"
                 data-aos-duration="1000"></i>
         </div>
-        <img class="rounded-xl lg:w-1/2" src="/images/bg/grow.png" alt="Marketing" data-aos="fade-up"
+        <img class="rounded-xl lg:w-1/2" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/bg/grow.png" alt="Marketing" data-aos="fade-up"
             data-aos-delay="700" data-aos-duration="1000">
     </div>
 
     <!-- Contact Form -->
     <div class="container">
         <div data-aos="fade-up" data-aos-duration="1000"
-            class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[url('/images/glow/contact-page-contact-form.png')] bg-cover bg-no-repeat">
+            class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/contact-page-contact-form.png')] bg-cover bg-no-repeat">
             <div class="mb-10 space-y-4 text-center md:text-left">
                 <h2 class="text-2xl md:text-5xl">Speak to Us</h2>
                 <p class="md:text-xl">Fill out your details below if you want to learn more about our product. We’ll
