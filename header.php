@@ -11,7 +11,7 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/dist/output.css" />
+  <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/output.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
@@ -20,7 +20,7 @@
   <nav>
     <a href="#" class="z-20">
       <!-- <h1 class="text-xl lg:text-3xl">YoungNomads</h1> -->
-      <img class="lg:w-[150px] w-[100px]" src="/images/companies/logo.png" alt="visibility">
+      <img class="lg:w-[150px] w-[100px]" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/companies/logo.png" alt="visibility">
     </a>
 
     <div class="flex items-center justify-end">
