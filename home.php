@@ -59,13 +59,13 @@ get_header(); ?>
       company</p>
     <div class="flex items-center justify-center space-x-5" data-aos="fade-down" data-aos-delay="1500">
       <div class="p-4 bg-gray-700 rounded-lg sm:w-[150px]">
-        <img class="logo" src="/images/companies/kopykitab.png" alt="">
+        <img class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/companies/kopykitab.png" alt="">
       </div>
       <div class="p-4 bg-gray-700 rounded-lg sm:w-[150px]">
-        <img class="logo" src="/images/companies/clever-harvey.webp" alt="">
+        <img class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/companies/clever-harvey.webp" alt="">
       </div>
       <div class="p-4 bg-gray-700 rounded-lg sm:w-[150px]">
-        <img class="logo" src="/images/companies/Hyreo-Logo.png" alt="">
+        <img class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/companies/Hyreo-Logo.png" alt="">
       </div>
     </div>
     <div data-aos="fade-down" data-aos-delay="2000">
@@ -80,8 +80,8 @@ get_header(); ?>
     data-aos-duration="1000">Unleash the power of SEO</h2>
   <div class="py-16 md:px-20">
     <div data-aos="fade-up" data-aos-delay="500"
-      class="bg-[url('/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat bg-cover px-6 lg:px-14 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-5 lg:space-x-[8rem]">
-      <img class="md:w-[40%]" src="/images/specs/research.svg" alt="">
+      class="bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat bg-cover px-6 lg:px-14 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-5 lg:space-x-[8rem]">
+      <img class="md:w-[40%]" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/specs/research.svg" alt="">
       <div class="mt-5 md:mt-0">
         <h3 class="mb-3 text-2xl md:text-3xl lg:text-4xl lg:mb-5">Industry and Competitor
           Research</h3>
@@ -99,8 +99,8 @@ get_header(); ?>
     </div>
 
     <div data-aos="fade-up" data-aos-delay="600"
-      class="bg-[url('/images/glow/card-mist-glow.6139fbd9.svg')] bg-no-repeat bg-cover px-6 lg:px-14 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-5 lg:space-x-[8rem]">
-      <img class="md:w-[40%]" src="/images/specs/strategy.svg" alt="">
+      class="bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-mist-glow.6139fbd9.svg')] bg-no-repeat bg-cover px-6 lg:px-14 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-5 lg:space-x-[8rem]">
+      <img class="md:w-[40%]" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/specs/strategy.svg" alt="">
       <div class="mt-5 md:mt-0">
         <h3 class="mb-3 text-2xl md:text-3xl lg:text-4xl lg:mb-5">SEO & Content Strategy</h3>
         <p class="md:text-lg">Create a Content Strategy for
@@ -110,8 +110,8 @@ get_header(); ?>
       </div>
     </div>
     <div data-aos="fade-up"
-      class="bg-[url('/images/glow/card-purple-glow.bc96a7d4.svg')] bg-no-repeat bg-cover px-6 lg:px-14 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-5 lg:space-x-[8rem]">
-      <img class="md:w-[40%]" src="/images/specs/seo.svg" alt="">
+      class="bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-purple-glow.bc96a7d4.svg')] bg-no-repeat bg-cover px-6 lg:px-14 py-16 flex flex-col md:flex-row items-center justify-between text-center md:text-left border border-gray-700 rounded-xl mb-10 w-[320px] md:w-auto mx-auto md:space-x-5 lg:space-x-[8rem]">
+      <img class="md:w-[40%]" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/specs/seo.svg" alt="">
       <div class="mt-5 md:mt-0">
         <h3 class="mb-3 text-2xl md:text-3xl lg:text-4xl lg:mb-5">On Page & Off Page SEO</h3>
         <p class="md:text-lg">A continuous sprint of On
@@ -130,8 +130,8 @@ get_header(); ?>
 
   <div data-aos="fade-up" data-aos-delay="500" class="grid-cols-2 gap-8 md:grid xl:grid-cols-3">
     <div
-      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
-      <img class="mx-auto my-4 w-14" src="/images/features/sass.png" alt="">
+      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
+      <img class="mx-auto my-4 w-14" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/features/sass.png" alt="">
       <h3 class="mb-4 text-2xl">SaaS SEO</h3>
       <p class="mb-4">Get the visibility you deserve
         in the highly competitive
@@ -140,8 +140,8 @@ get_header(); ?>
     </div>
 
     <div
-      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
-      <img class="mx-auto my-4 w-14" src="/images/features/ecommerce.png" alt="">
+      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
+      <img class="mx-auto my-4 w-14" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/features/ecommerce.png" alt="">
       <h3 class="mb-4 text-2xl">ECommerce SEO</h3>
       <p class="mb-4">Be it a Shopify site or a
         Wordpress, we can scale
@@ -149,8 +149,8 @@ get_header(); ?>
     </div>
 
     <div
-      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
-      <img class="mx-auto my-4 w-14" src="/images/features/content-management.png" alt="">
+      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
+      <img class="mx-auto my-4 w-14" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/features/content-management.png" alt="">
       <h3 class="mb-4 text-2xl">Content Strategy</h3>
       <p class="mb-4">No SEO is complete without
         a comprehensive Content
@@ -161,8 +161,8 @@ get_header(); ?>
     </div>
 
     <div
-      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
-      <img class="mx-auto my-4 w-14" src="/images/features/consulting.png" alt="">
+      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
+      <img class="mx-auto my-4 w-14" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/features/consulting.png" alt="">
       <h3 class="mb-4 text-2xl">SEO Consulting</h3>
       <p class="mb-4">Just want to consult for a
         SEO strategy and have
@@ -171,8 +171,8 @@ get_header(); ?>
     </div>
 
     <div
-      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
-      <img class="mx-auto my-4 w-14" src="/images/features/help.png" alt="">
+      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
+      <img class="mx-auto my-4 w-14" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/features/help.png" alt="">
       <h3 class="mb-4 text-2xl">Technical SEO</h3>
       <p class="mb-4">It plays a huge role specially
         for big websites. Get a detailed tech SEO audit and
@@ -181,8 +181,8 @@ get_header(); ?>
     </div>
 
     <div
-      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
-      <img class="mx-auto my-4 w-14" src="/images/features/offpage.png" alt="">
+      class="mb-14 md:mb-2 transition bg-none p-8 border border-gray-700 rounded-lg cursor-pointer hover:bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/card-red-glow.303cd894.svg')] bg-no-repeat duration-500 bg-cover">
+      <img class="mx-auto my-4 w-14" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/features/offpage.png" alt="">
       <h3 class="mb-4 text-2xl ">Off Page SEO</h3>
       <p class="mb-4">PR and Off Page activity is
         also important to signal
@@ -228,7 +228,7 @@ get_header(); ?>
 <!-- Contact Form -->
 <div class="container">
   <div data-aos="fade-up"
-    class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[url('/images/glow/contact-page-contact-form.png')] bg-cover bg-no-repeat">
+    class="p-4 border border-gray-700 rounded-lg md:p-14 lg:w-[80%] m-auto bg-[url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/glow/contact-page-contact-form.png')] bg-cover bg-no-repeat">
     <div class="mb-10 space-y-4 text-center md:text-left">
       <h2 class="text-2xl md:text-5xl">Speak to Us</h2>
       <p class="md:text-xl">Fill out your details below if you want to know more about our services. We’ll
