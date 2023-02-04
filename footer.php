@@ -51,7 +51,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://kit.fontawesome.com/628003722a.js" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
-  <script src="/js/script.js"></script>
+  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/script.js"></script>
 </body>
 
 </html>
